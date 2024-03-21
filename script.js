@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const apiKey = 'Jb36YyW1EESXtgunSzTVAnbvJIdRNIiThNBiVtl7'; 
-    const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=Jb36YyW1EESXtgunSzTVAnbvJIdRNIiThNBiVtl7`;
+    const apiKey = 'YOUR API KEY'; 
+    const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=YOUR API KEY`;
 
     fetch(apiUrl)
         .then(response => {
