@@ -34,18 +34,18 @@ This project is a simple web application that fetches and displays NASA's Astron
 ## File structure
 
   ```index.html```
-  This file contains the HTML structure for the webpage. It includes:
+  * This file contains the HTML structure for the webpage. It includes:
     * A header ```h1``` to display the title "NASA Picture of the Day."
     * A div ```#apodImage``` where the APOD image or video, title, and explanation are inserted.
 
   ```style.css```
-  This file contains styles for the app:
+  * This file contains styles for the app:
     * The ```body``` element uses the Poppins font
     * The ```.container``` class centers the content and applies padding
     * The ```h1``` and ```#apodImage``` styles control the layout and appeareance of the page
 
   ```script.js```
-  This JavaScript file handles the following
+  * This JavaScript file handles the following
     * **Fetches Data:** It makes a GET request to the NASA API using ```fetch()``` to retrieve the APOD data
     * **Handles response:** If the API request is successfull, it calls the ```displayApodImage()``` function, passing the response data.
     * **Displays content:** The ```displayApodImage()``` function inserts the image or video, title and explanation into the HTML DOM
